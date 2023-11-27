@@ -1,9 +1,4 @@
-//
-//  ContentView.swift
-//  Location
-//
-//  Created by Jeremy Merezhko on 11/26/23.
-//
+
 
 import SwiftUI
 
