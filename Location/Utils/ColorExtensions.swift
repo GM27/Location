@@ -23,5 +23,6 @@ extension Color {
     static var mainAppColor: Color {return Color(rgb: 0xe1eaf5)}
     static var mainAppColor2: Color {return Color(rgb: 0xacd1fa)}
     static var mainButtonColor: Color {return Color(rgb: 0x509aed)}
-  
+    static var editButtonColor: Color {return Color(rgb: 0xcf0909)}
+ 
 }
