@@ -77,6 +77,7 @@ struct CustomNavigationView<RootView: View>: View {
             .opacity(stack.names.last! == "Settings" ? 0 : 1.0)
           .onTapGesture {
                    UIApplication.shared.endEditing()
+              stack.push(element: SettingsView(), name: "Settings")
         
         }.padding(.top, 20)
          .padding(.trailing, 15)

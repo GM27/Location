@@ -16,6 +16,7 @@ struct AllLocations: View {
 
 
 struct AlLLocationsView: View {
+    @EnvironmentObject var navigationStack: CustomNavigationStack
     @FocusState var isNameFocused: Bool
     @State  private var search = ""
     @State private var offsetEdit: CGFloat = 0
@@ -106,7 +107,9 @@ struct AlLLocationsView: View {
                 
                 
                 Group {
-                    Button(action: {}, label: {
+                    Button(action: {
+                        navigationStack.push(element: AddLocationView(), name: "Add New Location")
+                    }, label: {
                         Image("plus").resizable().scaledToFit().frame(width: 20)
                         
                     })
