@@ -8,7 +8,7 @@
 import SwiftUI
 import MapKit
 
-struct MainView: View {
+struct AddLocatoinView: View {
     var body: some View {
         
         VStack {
@@ -21,5 +21,5 @@ struct MainView: View {
 }
 
 #Preview {
-    MainView()
+    AddLocatoinView()
 }
